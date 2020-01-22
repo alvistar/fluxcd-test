@@ -5,7 +5,7 @@ metadata:
   name: gitlab-runner
   namespace: manta-ci
 spec:
-  releaseName: redis
+  releaseName: gitlab-runner
   chart:
     repository: https://charts.gitlab.io
     name: gitlab/gitlab-runner
