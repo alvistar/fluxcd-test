@@ -17,4 +17,6 @@ spec:
     runnerRegistrationToken: ksg4rSzzw78_yYyA3R2R
     runners:
       tags: "k8"
+      imagePullSecrets: 
+        - regcred
     
