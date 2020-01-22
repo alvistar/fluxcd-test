@@ -7,8 +7,8 @@ metadata:
 spec:
   releaseName: gitlab-runner
   chart:
-    repository: https://charts.gitlab.io
-    name: gitlab/gitlab-runner
+    repository: https://charts.gitlab.io/
+    name: gitlab-runner
   values:
     rbac:
       create: true
