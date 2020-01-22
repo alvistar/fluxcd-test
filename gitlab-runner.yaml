@@ -1,0 +1,17 @@
+---
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: gitlab-runner
+  namespace: manta-ci
+spec:
+  releaseName: redis
+  chart:
+    repository: https://charts.gitlab.io
+    name: gitlab/gitlab-runner
+  values:
+    rbac:
+      create: true
+    gitlabUrl: https://gitlab.com/
+    runnerRegistrationToken: ksg4rSzzw78_yYyA3R2R
+    
