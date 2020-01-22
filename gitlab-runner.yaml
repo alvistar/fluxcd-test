@@ -15,4 +15,6 @@ spec:
       create: true
     gitlabUrl: https://gitlab.com/
     runnerRegistrationToken: ksg4rSzzw78_yYyA3R2R
+    runners:
+      tags: "k8"
     
